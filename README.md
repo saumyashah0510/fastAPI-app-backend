@@ -36,5 +36,16 @@ pip install -r requirements.txt
 
 Create a .env file or update settings in core/config.py to point to your database URL.
 
+### 5. Start the application
 
+```bash
+fastapi dev app/main.py
+```
+
+## 🧪 API Documentation
+
+Once the server is running, you can access the interactive documentation:
+
+- 📘 **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- 📕 **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
