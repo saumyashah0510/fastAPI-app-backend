@@ -13,16 +13,19 @@ This repository contains the backend of a web application built using **FastAPI*
 - 🔒 **Authentication/Authorization**: JWT, OAuth2, or other security features.
 
 ## 📁 Project Structure
-  
+```
 fastAPI-app-backend/
+│
 ├── app/
+│   │
 │   ├── api/           # API route definitions
 │   ├── core/          # Settings and configuration
 │   ├── models/        # SQLAlchemy models
 │   ├── schemas/       # Pydantic models
 │   └── main.py        # Application entry point
+│
 ├── alembic/           # Alembic migration scripts
 ├── alembic.ini        # Alembic configuration file
 ├── requirements.txt   # Project dependencies
 └── README.md          # Project documentation
-
+```
