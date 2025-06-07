@@ -12,20 +12,29 @@ This repository contains the backend of a web application built using **FastAPI*
 - 📄 **Auto-generated Docs**: Swagger UI and ReDoc out of the box.
 - 🔒 **Authentication/Authorization**: JWT, OAuth2, or other security features.
 
-## 📁 Project Structure
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/saumyashah0510/fastAPI-app-backend.git
+cd fastAPI-app-backend
 ```
-fastAPI-app-backend/
-│
-├── app/
-│   │
-│   ├── api/           # API route definitions
-│   ├── core/          # Settings and configuration
-│   ├── models/        # SQLAlchemy models
-│   ├── schemas/       # Pydantic models
-│   └── main.py        # Application entry point
-│
-├── alembic/           # Alembic migration scripts
-├── alembic.ini        # Alembic configuration file
-├── requirements.txt   # Project dependencies
-└── README.md          # Project documentation
+### 2. Create a virtual environment and activate it
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Set up the Database
+
+Create a .env file or update settings in core/config.py to point to your database URL.
+
+
+
