@@ -11,6 +11,8 @@ This repository contains the backend of a web application built using **FastAPI*
 - 🔄 **Alembic Migrations**: Handles database schema changes and versioning.
 - 📄 **Auto-generated Docs**: Swagger UI and ReDoc out of the box.
 - 🔒 **Authentication/Authorization**: JWT, OAuth2, or other security features.
+
+## 📁 Project Structure
   
 fastAPI-app-backend/
 ├── app/
